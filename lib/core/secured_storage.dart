@@ -37,7 +37,7 @@ class SecuredStorage {
     return SecuredStorage._internal(passphrase, isOneWayEncryption);
   }
 
-  /// Caesar Cipher 加/解密算法
+  ///  恺撒密码[加/解密算法]
   ///
   /// - [text]: 输入字符串
   /// - [shift]: 加密位移量，通常由 passphrase 的长度决定
