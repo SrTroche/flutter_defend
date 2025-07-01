@@ -1,7 +1,9 @@
 name: flutter_defend
-description: 'A new Flutter package project.'
+description: 'FlutterDefend 是一个轻量级的 Flutter 安全工具包，提供 SQL 注入检测、本地加密存储、安全输入框封装、越狱/root 检测等功能。'
 version: 0.0.1
-homepage:
+homepage: https://github.com/ctkqiang/flutter_defend
+repository: https://github.com/ctkqiang/flutter_defend
+issue_tracker: https://github.com/ctkqiang/flutter_defend/issues
 
 environment:
   sdk: '>=3.3.4 <4.0.0'
@@ -20,6 +22,13 @@ dev_dependencies:
   flutter_lints: ^3.0.0
 
 flutter:
+  plugin:
+    platforms:
+      android:
+        package: your.org.flutter_defend
+        pluginClass: FlutterDefendPlugin
+      ios:
+        pluginClass: FlutterDefendPlugin
 
   # To add assets to your package, add an assets section, like this:
   # assets:
