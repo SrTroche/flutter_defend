@@ -9,6 +9,13 @@ environment:
   sdk: '>=3.3.4 <4.0.0'
   flutter: '>=1.17.0'
 
+topics:
+  - security
+  - encryption
+  - sql-injection
+  - jailbreak
+  - secure-storage
+
 dependencies:
   flutter:
     sdk: flutter
