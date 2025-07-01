@@ -1,6 +1,6 @@
 name: flutter_defend
 description: 'FlutterDefend 是一个轻量级的 Flutter 安全工具包，提供 SQL 注入检测、本地加密存储、安全输入框封装、越狱/root 检测等功能。'
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/ctkqiang/flutter_defend
 repository: https://github.com/ctkqiang/flutter_defend
 issue_tracker: https://github.com/ctkqiang/flutter_defend/issues
